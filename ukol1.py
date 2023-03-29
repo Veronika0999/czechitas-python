@@ -19,7 +19,7 @@ print(jmeno_a_prijmeni.upper())
 print(jmeno_a_prijmeni.lower())
 print(jmeno_a_prijmeni.title())
 
-#inicialy 
+#inicialy - nedá se to udělat i nějak snadněji - bez toho, aniž bych se musela ptát zvlášť na jméno a příjmení? nějak pouze s proměnnou "jmeno_a_prijmeni"? :)
 jmeno = input("Vlož své křesní jméno: ")
 prijmeni = input("Vlož své příjmení: ")
 inicialy = (jmeno[0] +"." + prijmeni[0]+".")
