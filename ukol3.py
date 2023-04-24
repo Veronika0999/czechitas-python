@@ -13,7 +13,7 @@ for jmeno, hodnoceni in body.items():
 
 
 with open('prospech.json', mode = 'w', encoding='utf-8') as file:
-    json.dump(novy_slovnik, file)
+    json.dump(novy_slovnik, file, ensure_ascii=False)
 
 
 #Nepovinný bonus
@@ -40,4 +40,4 @@ for jmeno, hodnoceni in slouceni.items():
 
 
 with open('znamky.json', mode = 'w', encoding='utf-8') as file:
-    json.dump(znamka, file)
+    json.dump(znamka, file, ensure_ascii=False)
